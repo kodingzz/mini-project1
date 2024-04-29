@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+header{
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+section{
+    padding:1.5rem;
+    font-size: 1rem;;
+}
+#main > div{
+    margin: 2rem 0;
+}
+#main label{
+    display: block;
+    margin-bottom: 0.8rem;
+    
+
+}
+#main label select{
+    width: 20%;
+    height: 2rem;
+ 
+}
+#main label #weight {
+    width: 20%;
+    height: 1.5rem;
+ 
+}
+#main label #calculate{
+    margin: 2rem 0;
+    padding: 0.2rem 1rem;
+}
+
+.hide{
+    display:none;
+}

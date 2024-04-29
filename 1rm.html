@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/1rm/1rm.css">
+    <script src="/1rm/1rm.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div d="title">
+            1rm 계산기
+        </div>
+    </header>
+    <section>
+        <div id="main">
+            <p>
+                수행한 종목,횟수,무게를 입력하면 1RM~ 10RM까지 계산합니다!
+            </p>
+           <div> 
+            <!-- <label for="field">
+                <select name="field" id="field" required>
+                    <option value="종목선택">종목선택</option>
+                    <option value="벤치프레스">벤치프레스</option>
+                    <option value="데드리프트">데드리프트</option>
+                    <option value="스쿼트">스쿼트</option>
+                </select>
+            </label> -->
+            <label for="count">
+                <select name="count" id="count" required>
+                    <option value="반복횟수(10회이하)">반복횟수(10회이하)</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+
+                </select>
+            </label>
+            <label for="weight">
+              <input type="number" name="weight" id="weight" placeholder="무게(kg)" required >
+            </label>
+            <label for="calculate">
+                <input type="button" name="cal-btn" value="계산하기" id="calculate" onclick="RmCal()">
+            </label>
+
+            </div>
+        </div>
+    </section>
+    <div class="rmResult hide" >
+        <div class="result">
+            <strong>1RM</strong>
+            <span></span>KG
+        </div>
+        <div class="result">
+            <strong>2RM</strong>
+            <span></span>KG
+        </div>
+        <div class="result">
+            <strong>3RM</strong>
+            <span></span>KG
+        </div>
+        <div class="result">
+            <strong>4RM</strong>
+            <span></span>KG
+        </div>
+        <div class="result">
+            <strong>5RM</strong>
+            <span></span>KG
+        </div>
+        <div class="result">
+            <strong>6RM</strong>
+            <span></span>KG
+        </div>
+        <div class="result">
+            <strong>7RM</strong>
+            <span></span>KG
+        </div>
+        <div class="result">
+            <strong>8RM</strong>
+            <span></span>KG
+        </div>
+        <div class="result">
+            <strong>9RM</strong>
+            <span></span>KG
+        </div>
+        <div class="result">
+            <strong>10RM</strong>
+            <span></span>KG
+        </div>
+    </div>
+    
+    <footer>
+        <div >
+             <a href="https://www.nsca.com/contentassets/61d813865e264c6e852cadfe247eae52/nsca_training_load_chart.pdf" target="_blank">출처: NSCA Training Load Chart</a>
+        </div>
+    </footer>
+   
+   
+</body>
+</html>
